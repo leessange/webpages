@@ -1,0 +1,100 @@
+main img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+article img {
+    width: 13%;
+    height: 13%;
+    margin-top: -7%;
+    margin-left: 80%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 15px #ccc;
+}
+body section #pro {
+    width: 80%;
+    padding-bottom: 40px;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+#pro_sang span {
+    font-size: 30px;
+    font-weight: 400;
+}
+#pro_sang p {
+    color: teal;
+    font-weight: 500;
+}
+
+#pro span {
+    font-weight: 500;
+}
+.pro_ha1 {
+    float: left;
+    margin-right: 5%;
+}
+#wrap2 {
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+#wrap1 {
+    margin-top: 40px;
+}
+/* recent */
+#wrap2 .box1 {
+    width: 85%;
+    float: left;
+}
+#wrap2 div {
+    width: 60%;
+    height: 200px;
+    margin: 30px;
+    
+}
+#wrap2 div h3,h5 {
+    float: left;
+    text-align: justify;
+}
+h6 {
+    font-size: 15px;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+    color: mediumaquamarine;
+}
+#wrap2 img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.box1 {
+    border-bottom: 1.5px solid #ccc;
+}
+.box1:hover {
+    background-color: rgb(243, 252, 255);
+}
+/* 구분선 */
+hr {
+    border: 1.5px solid teal;    
+}
+/* 순서정렬 */
+.a {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.a div:hover {
+    font-weight: 550;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* 로고부분 */
+  .row img {
+    height: 70px;
+    margin-top: -20px;
+  }
+  /* 로그아웃 */
+#logout {
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+  }
+  /* 푸터 */
+  #fh5co-footer {
+    padding: 3em 0;
+    text-align: center;
+  }
+  /* sns 아이콘 */
+.fh5co-social1 {
+    padding: 0;
+    margin: 30px 0 0 0;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .fh5co-social1 li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+  }
+  .fh5co-social1 li {
+    font-size: 20px;
+    padding: 6px;
+    color: #000;
+  }
+  .fh5co-social img {
+    height: 35px;
+    margin-top: 30px;
+  }

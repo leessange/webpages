@@ -1,0 +1,81 @@
+#wrap {
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointer;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    margin: 170px 0 20px;
+    background: rgb(238, 238, 238);
+}
+nav p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+#n1 {
+    width: 800px;
+    margin: 20px auto;
+}
+/* 본문내용 */
+#wrap2 {
+    /* text-align: center; */
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#wrap2 .box1 {
+    width: 65%;
+    float: left;
+}
+#wrap2 div {
+    width: 60%;
+    height: 200px;
+    /* background-color: rgb(240, 240, 240); */
+    margin: 30px;
+    
+}
+#wrap2 div h3,h5 {
+    float: left;
+    text-align: justify;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+    color: mediumaquamarine;
+}
+#wrap2 img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.box1 {
+    border-bottom: 1.5px solid #ccc;
+}
+/* #text {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; */
+    /* float: left; */
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.a div:hover {
+    font-weight: 550;
+    /* color: teal; */
+}
